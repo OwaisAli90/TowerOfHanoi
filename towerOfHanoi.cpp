@@ -16,10 +16,6 @@ public:
         stackName  = name;
     }
 
-    ~Stack() {
-        delete[] arr;
-    }
-
     bool isFull() {
         return top == size - 1;
     }
